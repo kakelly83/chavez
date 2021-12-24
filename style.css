@@ -762,3 +762,13 @@ body {
 a {
   color: #333;
 }
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px), only screen and (max-device-height: 480px) {
+
+  #mktColumns.mktoMobileKiller {
+
+        display: none !important;
+
+    }
+
+}
