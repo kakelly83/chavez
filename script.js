@@ -156,7 +156,7 @@
 
             if (progress > .265) {
               _this.$icon2.css({
-                'z-index': 20
+                'z-index': 16
               });
             } else {
               _this.$icon2.css({
