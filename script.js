@@ -153,15 +153,7 @@
           return function() {
             var progress;
             progress = _this.coverTween.progress();
-            if (progress > .225) {
-              _this.$icon1.css({
-                'z-index': 11
-              });
-            } else {
-              _this.$icon1.css({
-                'z-index': 1
-              });
-            }
+
             if (progress > .265) {
               _this.$icon2.css({
                 'z-index': 11
@@ -171,15 +163,7 @@
                 'z-index': 1
               });
             }
-            if (progress > .307) {
-              return _this.$icon3.css({
-                'z-index': 11
-              });
-            } else {
-              return _this.$icon3.css({
-                'z-index': 1
-              });
-            }
+
           };
         })(this)
       });
