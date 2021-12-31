@@ -483,6 +483,10 @@ html {
     perspective: 600000px
 }
 
+.js-cover{
+  background: rgba(218,37,29,.97);
+}
+
 .cover {
     position: absolute;
     top: 0;
@@ -497,7 +501,8 @@ html {
     transform-origin: right top;
     -webkit-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
-    transform-style: preserve-3d
+    transform-style: preserve-3d;
+    background: rgba(218,37,29,.97);
 }
 
 .cover__item {
