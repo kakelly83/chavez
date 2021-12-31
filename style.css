@@ -258,7 +258,16 @@ html {
     padding-bottom: 100%;
     z-index: 1;
     position: relative;
-  background: rgba(50,20,217,.97);
+    background: rgba(50,20,217,.97);
+
+}
+
+.box-icon__content a {
+    display: block;
+    z-index: 10000;
+}
+
+.the-link{
 
 }
 
