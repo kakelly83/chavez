@@ -250,6 +250,10 @@ html {
     margin-left: 11.25%
 }
 
+.main{
+      background: rgba(0,217,29,.97);
+}
+
 .box-icon__content {
     padding-bottom: 100%;
     z-index: 1;
