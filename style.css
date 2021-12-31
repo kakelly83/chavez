@@ -268,7 +268,7 @@ html {
 }
 
 .the-link{
-
+   display: block;
 }
 
 .img-link {
@@ -276,9 +276,9 @@ html {
     position: relative;
 }
 
-.box-icon__content:hover {
+/* .box-icon__content:hover {
     cursor: pointer
-}
+} */
 
 .box-icon__content:hover .svg-icon--twitter {
     fill: #00a7f5
